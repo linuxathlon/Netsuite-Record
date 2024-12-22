@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Netsuite Record JSON",
+  "version": "0.1",
+  "description": "Allow to see the record as JSON, with all fields and lists",
+  "permissions": ["tabs", "activeTab", "*.netsuite.com/*"],
+  "browser_action": {
+    "default_popup": "dialog/dialog.html",
+    "default_title": "Netsuite Record"
+  }
+}
